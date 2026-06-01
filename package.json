@@ -11,6 +11,9 @@
     "lint": "eslint src/**/*.ts",
     "test": "jest"
   },
+  "engines": {
+    "node": ">=24"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/actions-ecosystem/action-add-labels.git"
@@ -31,7 +34,7 @@
   "devDependencies": {
     "@octokit/webhooks": "^12.1.0",
     "@types/jest": "^29.5.12",
-    "@types/node": "^20.11.16",
+    "@types/node": "^24",
     "@types/semver": "^7.5.6",
     "@typescript-eslint/parser": "^6.21.0",
     "@vercel/ncc": "^0.38.1",
